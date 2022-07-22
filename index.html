@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble.com nav bar</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="left_nav">
+                <li><h3>dribbble</h3></li>
+                <div class="dropdown">
+                    <li>Inspiration</li>
+                    <div class="dropdown-content">
+                        <a href="#">abcd</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li>Find Work</li>
+                    <div class="dropdown-content">
+                        <a href="#">abcd</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li>Learn Design</li>
+                    <div class="dropdown-content">
+                        <a href="#">abcd</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li>Go Pro</li>
+                    <div class="dropdown-content">
+                        <a href="#">abcd</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li>Marketplace</li>
+                    <div class="dropdown-content">
+                        <a href="#">abcd</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li>Hire Designers</li>
+                    <div class="dropdown-content">
+                        <a href="#">abcd</a>
+                    </div>
+                </div>
+            </ul>
+            <ul class="right_nav">
+                <li><i class='fa fa-search'></i></li>
+                <li>Sign In</li>
+                <li><button type="button" class="share">Share my work</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container1">
+            <div class="explore">
+                <h1>Explore the world’s<br> leading design portfolios</h1>
+                <p class="intro">Millions of designers and agencies around the world showcase their 
+                    portfolio work on <br> Dribbble - the home to the world’s best design and creative professionals.</p>
+                <button type="button" class="signup">Sign Up</button>
+            </div>
+            <div>
+                <img src="images\romainbriaux-800w-f8927e677f2ab85c8d454f14cc277f300d3c72e89889e38c1ae1d18e8e3fd667.webp" width="500px" height="400px">
+            </div>
+        </section>
+        <section class="mid">
+            <select name="categories" id="categories">
+                <option>Popular</option>
+                <option>New & Noteworthy</option>
+                <hr>
+                <option>Marketplace</option>
+            </select>
+            <h4>All</h4>
+            <h4>Animation</h4>
+            <h4>Branding</h4>
+            <h4>Illustrations</h4>
+            <h4>Mobile</h4>
+            <h4>Print</h4>
+            <h4>Product Design</h4>
+            <h4>Typography</h4>
+            <h4>Web Design</h4>
+            <button class="filter_button" id="filter_button"><i class="fa fa-filter"></i>  Filters</button>
+        </section>
+        <section class="all_filters">
+            <div class="filters">
+                <div class="tags">
+                    <h4>Tags</h4>
+                    <input class="intags" type="text" value="">
+                </div>
+                <div class="color">
+                    <h4>Color</h4>
+                    <!-- <select name="color" id="color"> -->
+                        <input type="text" class="incolor">
+                    <!-- </select> -->
+                </div>
+                <div class="timeframe">
+                    <h4>Timeframe</h4>
+                    <select name="time" id="time">
+                        <option value="Now">Now</option>
+                        <option value="This Past Week">This Past Week</option>
+                        <option value="This Past Month">This Past Month</option>
+                        <option value="This Past year">This Past year</option>
+                        <option value="All Time">All Time</option>
+                    </select>
+                </div>
+                <div class="downloads">
+                    <h4>Downloads</h4>
+                    <select name="Downloads" id="Downloads">
+                        <option value="All Shots">All Shots</option>
+                        <option value="Adobe Illustrator"><i class="fa fa-adobe"></i>Adobe Illustrator</option>
+                        <option value="Adobe Photoshop">Adobe Photoshop</option>
+                        <option value="Adobe XD">Adobe XD</option>
+                        <option value="Figma">Figma</option>
+                        <option value="Invision Studio">Invision Studio</option>
+                        <option value="Sketch">Sketch</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="container2">
+            <div class="left2">
+                <p></p>
+                <img src="images\secim1.webp">
+            </div>
+            <div class="center2">
+                <img src="images\secim2.webp">
+            </div>
+            <div class="right2">
+                <img src="images\secim3.webp">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-cols">
+            <ul class="col1">
+                <li><h3>dribbble</h3></li>
+                <li><p>Dribbble is the world’s<br> leading community for<br> 
+                    creatives to share, grow,<br> and get hired.</p></li>
+                <li class="fas"><i class="fa fa-dribbble"></i> 
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-pinterest"></i>
+                </li>
+            </ul>
+            <ul>
+                <li><h4>For designers</h4></li>
+                <li>Go Pro</li>
+                <li>Explore design work</li>
+                <li>Design blog</li>
+                <li>Overtime podcast</li>
+                <li>Dribbble meetups</li>
+                <li>Playoffs</li>
+                <li>Weekly Warm-Up</li>
+                <li>Code of Conduct</li>
+            </ul>
+            <ul>
+                <li><h4>Hire designers</h4></li>
+                <li>Post a job opening</li>
+                <li>Post a freelance project</li>
+                <li>Search for designers</li>
+                <li><h4>Brands</h4></li>
+                <li>Advertise with us</li>
+            </ul>
+            <ul>
+                <li><h4>Company</h4></li>
+                <li>About</li>
+                <li>Career</li>
+                <li>Support</li>
+                <li>Media kit</li>
+                <li>Testimonials</li>
+                <li>API</li>
+                <li>Terms of service</li>
+                <li>Privacy policy</li>
+                <li>Cookie policy</li>
+            </ul>
+            <ul>
+                <li><h4>Directories</h4></li>
+                <li>Design jobs</li>
+                <li>Designers for hire</li>
+                <li>Freelance designers for hire</li>
+                <li>Tags</li>
+                <li>Places</li>
+                <li><h4>Design assets</h4></li>
+                <li>Creative Market</li>
+                <li>Fontspring</li>
+                <li>Font Squirrel</li>
+            </ul>
+            <ul>
+                <li><h4>Design Resources</h4></li>
+                <li>Freelancing</li>
+                <li>Design Hiring</li>
+                <li>Design Portfolio</li>
+                <li>Design Education</li>
+                <li>Creative Process</li>
+                <li>Design Industry Trends</li>
+            </ul>
+        </div>
+        <hr style="margin-top: 70px; background:rgb(254, 250, 250)">
+        <div class="final_line">
+            <p style="float: left;">&copy 2022 Dribbble. All rights reserved.</p>
+            <p class="right"><b style="color: black;">18,689,825</b> shots dribbbled <i class="fa fa-dribbble"></i></p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
